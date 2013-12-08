@@ -1,0 +1,25 @@
+body, .services, .companies {
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF), to(#E6E6E6));
+  background-image: -webkit-linear-gradient(top, #FFF, #E6E6E6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #FFF, #E6E6E6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  min-height: 400px;
+}
+
+.img-thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+.services {
+  margin-top: 10px;
+}
+
+.companies > .row {
+  margin: 10px;
+  border-bottom: 1px solid #ddd;
+}
