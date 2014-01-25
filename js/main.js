@@ -15,7 +15,7 @@
 
     el.html(companiesListTpl(companies_list));
     el.fadeIn();
-  };
+  }
 
 
   $(".services img").on("click", function () {

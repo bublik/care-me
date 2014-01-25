@@ -10,21 +10,15 @@
 <script id="company-list-tpl" type="text/x-handlebars-template">
     {{#companies}}
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-xs-12">
             <img src="{{this.img_path}}" class="img-thumbnail">
-        </div>
-        <div class="col-md-9">
-            <blockquote>
-                <h3>{{this.company_name}}</h3>
-
-                <p class="description">{{this.description}}</p>
-
-                <div class="phones">
-                    {{#phones}}
-                    <a href="tel:{{this}}"><i class="glyphicon glyphicon-earphone"></i> {{this}}</a>
-                    {{/phones}}
-                </div>
-            </blockquote>
+            <div class="title">{{this.company_name}}</div>
+            <p class="description">{{this.description}}</p>
+            <div class="phones">
+                {{#phones}}
+                <a href="tel:{{this}}"><i class="glyphicon glyphicon-earphone"></i> {{this}}</a>
+                {{/phones}}
+            </div>
         </div>
     </div>
     {{else}}
@@ -35,27 +29,54 @@
 
 <div class="services">
     <div class="row  text-center">
-        <div class="col-md-4">
-            <img data-service='gai' src="img/services/gai.gif" class="img-thumbnail">
-
-            <div>Гаи</div>
+        <div class="col-xs-4">
+            <img data-service='evacuator' src="img/services/evacuator.png" class="img-thumbnail">
         </div>
-        <div class="col-md-4">
-            <img data-service='keys' src="img/services/gai.gif" class="img-thumbnail">
-
-            <div>Открытие ключей</div>
+        <div class="col-xs-4">
+            <img data-service='dor-open' src="img/services/dor-open.png" class="img-thumbnail">
         </div>
-        <div class="col-md-4">
-            <img data-service='evacuator' src="img/services/gai.gif" class="img-thumbnail">
+        <div class="col-xs-4">
+            <img data-service='tyre' src="img/services/tyre.png" class="img-thumbnail">
+        </div>
+    </div>
 
-            <div>Ремонт машин</div>
+    <div class="row  text-center">
+        <div class="col-xs-4">
+            <img data-service='lawyer' src="img/services/lawyer.png" class="img-thumbnail">
+        </div>
+        <div class="col-xs-4">
+            <img data-service='comisar' src="img/services/comisar.png" class="img-thumbnail">
+        </div>
+        <div class="col-xs-4">
+            <img data-service='insurance' src="img/services/insurance.png" class="img-thumbnail">
+        </div>
+    </div>
+    <div class="row  text-center">
+        <div class="col-xs-4">
+            <img data-service='acum-service' src="img/services/acum-service.png" class="img-thumbnail">
+        </div>
+        <div class="col-xs-4">
+            <img data-service='auto-repaire' src="img/services/auto-repaire.png" class="img-thumbnail">
+        </div>
+        <div class="col-xs-4">
+            <img data-service='gai' src="img/services/gai.png" class="img-thumbnail">
+        </div>
+    </div>
+    <div class="row  text-center">
+        <div class="col-xs-4">
+            <img data-service='102' src="img/services/102.png" class="img-thumbnail">
+        </div>
+        <div class="col-xs-4">
+            <img data-service='103' src="img/services/103.png" class="img-thumbnail">
+        </div>
+        <div class="col-xs-4">
+            <img data-service='112' src="img/services/112.png" class="img-thumbnail">
         </div>
     </div>
 </div>
 
-<div class="companies">
-
-</div>
+<div class="companies"></div>
+<div class="comapany"></div>
 
 <script src="lib/jquery-2.0.3.min.js"></script>
 <script src="lib/bootstrap.min.js"></script>

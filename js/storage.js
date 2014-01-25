@@ -26,7 +26,7 @@ var CompaniesStorage = function () {
           phones: ['234234234435', '234234234234']
         },
         {img_path: 'img/companies/company4.png',
-          company_name: "company4",
+          company_name: "Гор больница",
           description: "Descriptio This is my first post!",
           phones: ['09232342344', '234234234435']
         }

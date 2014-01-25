@@ -1,25 +1,61 @@
 body, .services, .companies {
-  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF), to(#E6E6E6));
-  background-image: -webkit-linear-gradient(top, #FFF, #E6E6E6);
-  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
-  background-image: linear-gradient(to bottom, #FFF, #E6E6E6);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-  min-height: 400px;
+  min-height: 600px;
+  background: #222222;
+  color: #fff;
 }
 
+.services > .row, .companies .row {
+  margin: 20px 10px;
+}
+.services img {
+  border: 1px solid #444;
+}
+.services img:hover {
+  cursor: pointer;
+  border: 1px solid #333;
+}
 .img-thumbnail {
-  width: 100px;
-  height: 100px;
-}
-
-.services {
-  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  border: none;
 }
 
 .companies > .row {
-  margin: 10px;
-  border-bottom: 1px solid #ddd;
+  margin: 20px;
+  border: 1px solid #333;
+  background-image: -moz-linear-gradient(top, #323232, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#323232), to(#222222));
+  background-image: -webkit-linear-gradient(top, #323232, #222222);
+  background-image: -o-linear-gradient(top, #323232, #222222);
+  background-image: linear-gradient(to bottom, #323232, #222222);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#323232', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.companies .row img {
+  margin: 20px 20px 20px 5px;
+  float: left;
+  display: block;
+}
+.companies .title {
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.companies .description {
+  color: #ccc;
+}
+
+.companies .phones a {
+  font-size: 1.1em;
+  color: #DDD;
+  text-decoration: none;
+}
+.companies .phones a:hover {
+ color: #f3c604;
+}
+
+.company {
+
 }
