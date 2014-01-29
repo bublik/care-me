@@ -12,8 +12,10 @@
     <div class="row">
         <div class="col-xs-12">
             <img src="{{this.img_path}}" class="img-thumbnail">
+
             <div class="title">{{this.company_name}}</div>
             <p class="description">{{this.description}}</p>
+
             <div class="phones">
                 {{#phones}}
                 <a href="tel:{{this}}"><i class="glyphicon glyphicon-earphone"></i> {{this}}</a>
@@ -24,7 +26,7 @@
     {{else}}
     <h4 class="text-center">No content</h4>
     {{/companies}}
-    <div class="text-center"><a href="#" class="home btn btn-info">Назад</a></div>
+    <div class="text-center"><a href="#" class="home btn btn-default">Назад</a></div>
 </script>
 
 <div class="services">
@@ -64,13 +66,13 @@
     </div>
     <div class="row  text-center">
         <div class="col-xs-4">
-            <img data-service='102' src="img/services/102.png" class="img-thumbnail">
+            <a href="tel:103" ><img src="img/services/102.png" class="img-thumbnail"></a>
         </div>
         <div class="col-xs-4">
-            <img data-service='103' src="img/services/103.png" class="img-thumbnail">
+            <a href="tel:103" ><img src="img/services/103.png" class="img-thumbnail"></a>
         </div>
         <div class="col-xs-4">
-            <img data-service='112' src="img/services/112.png" class="img-thumbnail">
+            <a href="tel:112" ><img src="img/services/112.png" class="img-thumbnail"></a>
         </div>
     </div>
 </div>

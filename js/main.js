@@ -20,8 +20,10 @@
 
   $(".services img").on("click", function () {
     var type = $(this).data('service');
-    show_companies(type);
-    $('.services').hide();
+    if (type != undefined) {
+      show_companies(type);
+      $('.services').hide();
+    }
   });
 
 }());

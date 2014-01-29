@@ -1,6 +1,6 @@
 var CompaniesStorage = function () {
   return {
-    "keys": {
+    "evacuator": {
       companies: [
         {img_path: 'img/companies/company1.png',
           company_name: "Keys 1",
@@ -13,7 +13,7 @@ var CompaniesStorage = function () {
           phones: ['234234234435', '234234234234']
         }]
     },
-    "gai": {
+    "dor-open": {
       companies: [
         {img_path: 'img/companies/company1.png',
           company_name: "company1",
